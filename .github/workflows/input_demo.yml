@@ -6,8 +6,8 @@ on:
         description: Choose the eniornment to deploy
         required: true
         default: dev
-        options:
         type: choice
+        options:
           - dev
           - prod
           - uat
