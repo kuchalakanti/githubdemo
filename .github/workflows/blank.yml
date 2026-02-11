@@ -1,8 +1,14 @@
 name: hello world
-on: push
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Build step
-        run: echo " automatic triggerr"
+        run: echo " automatic trigger"
