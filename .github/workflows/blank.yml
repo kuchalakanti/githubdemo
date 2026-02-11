@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build step
-        run: echo " automatic trigger"
+        run: echo " automatic triggerr"
