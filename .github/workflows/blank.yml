@@ -1,8 +1,11 @@
 name: hello world
 on: push
 jobs:
-  build:
+  action-demo:
     runs-on: ubuntu-latest
     steps:
-      - name: Build step
-        run: echo "Hello ${{vars.MY_NAME}}"
+      - name: checkout the code
+        uses: actions/checkout@v6
+      - name: print
+        run: cat index.html
+
