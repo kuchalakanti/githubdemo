@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run echo statement
-        run: echo "Hello world"
+        run: | 
+          echo "Hello world01"
+          echo "Hellow world02
